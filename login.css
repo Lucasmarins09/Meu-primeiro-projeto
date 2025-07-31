@@ -1,0 +1,86 @@
+        *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      background: #e9e9e9;
+    }
+    
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .esquerda {
+      width: 250px;
+      background-color: #0d3b66;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+    } 
+    
+    button {
+      background-color: #f39c12;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    button:hover {
+      background-color: #4595eb;
+    }
+    
+    input:hover {
+      background-color:#c7c9ca;
+    }
+
+    button:hover {
+      background-color: #4595eb;
+      cursor: pointer;
+    }
+
+    .ladodireito {
+      width: 80%;
+      background-color: #f9f9f9;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ladodireito .titulo {
+      width: 100%;  
+      background-color: #f39c12;
+      color: white;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      padding: 12px;
+      border-radius: 4px;
+    }
+
+    .ladodireito img {
+      max-width: 200px;
+    }
+   
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Produtos</title>
+  <link rel="stylesheet" href="produtos.css">
+</head>
+<body>
+  <div class="container">
+    <div class="esquerda">
+      <div class="perfil">
+        <div class="avatar"></div>
+        <h3>Lucas</h3>
+        <p>Perfil: Administrador</p>
+      </div>
+      <div class="menu">
+        <a href="cadastrarProduto.html">🆕 Cadastrar produtos</a>
+        <a href="painelDeControle.html">📊 Painel De Controle</a>
+        <button onclick="logout()">Sair</button>
+      </div>
+    </div>
+
+    <div class="ladodireito">
+      <div class="titulo">Lista de Produtos</div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Descrição</th>
+            <th>Estoque</th>
+            <th>Valor</th>
+            <th>Categoria</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaProdutos"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="produtos.js"></script>
+</body>
+</html>

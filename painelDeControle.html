@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Painel de Controle</title>
+  <link rel="stylesheet" href="painelDeControle.css">
+</head>
+<body>
+  <div class="container">
+    <div class="esquerda">
+      <div class="perfil">
+        <div class="avatar"></div>
+        <h3>Lucas</h3>
+        <p>Perfil: Administrador</p>
+      </div>
+      <div class="menu">
+        <a href="cadastrarProduto.html">🆕 Cadastrar produtos</a>
+        <a href="produtos.html">📋 Lista de produtos</a>
+        <button class="button" onclick="logout()">Sair</button>
+      </div>
+    </div>
+
+    <div class="ladodireito">
+      
+
+      <div class="cards">
+        <div class="card">
+          <h4>Estoque Total</h4>
+          <span id="estoqueTotal">0</span>
+        </div>
+        <div class="card">
+          <h4>Estoque Categoria B</h4>
+          <span id="estoqueCategoriaB"></span>
+        </div>
+        <div class="card">
+          <h4>Valor Total do Estoque</h4>
+          <span id="valorTotal">R$ 0,00</span>
+        </div>
+        <div class="card">
+          <h4>Produtos Cadastrados</h4>
+          <span id="totalProdutos">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="painelDeControle.js"></script>
+</body>
+</html>
+

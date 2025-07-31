@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastrar Produto</title>
+  <link rel="stylesheet" href="cadastarProduto.css">
+</head>
+<body>
+  <div class="container">
+    <div class="esquerda">
+      <div class="perfil">
+        <div class="avatar"></div>
+        <h3>Lucas</h3>
+        <p>Perfil: Administrador</p>
+      </div>
+      <div class="menu">
+        <a href="painelDeControle.html">📊 Painel De Controle</a>
+        <a href="produtos.html">📋 Lista de Produtos</a>
+        <button onclick="logout()">Sair</button>
+      </div>
+    </div>
+
+    <div class="ladodireito">
+      <div class="titulo">Cadastro de Produto</div>
+      <form id="formularioProduto">
+        <input type="number" id="codigo" placeholder="Código" required />
+        <input type="text" id="descricao" placeholder="Descrição" required />
+        <input type="number" id="estoque" placeholder="Estoque" required />
+        <input type="number" id="valor" placeholder="Valor" required />
+        <input type="text" id="categoria" placeholder="Categoria" required />
+        <button type="submit">Salvar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="cadastrarProduto.js"></script>
+</body>
+</html>
+
